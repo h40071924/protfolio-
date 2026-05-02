@@ -1,0 +1,18 @@
+
+
+.project-card {
+  transition: all 0.3s ease;
+  border-radius: 16px;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-card ul {
+  padding-left: 18px;
+}
+
+.project-card li {
+  line-height: 1.5;
+}
