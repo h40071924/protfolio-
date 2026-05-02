@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-     
+     <BrowserRouter>
      <Navbar />
      <Routes>
         <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/project" element={<Project />} />
       </Routes>
-  
+  </BrowserRouter>
      <Footer /> 
      
     </>
