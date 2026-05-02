@@ -1,5 +1,5 @@
 import {projects} from "./projectsdata";
-import ProjectCard from "./projectCard";
+import ProjectCard from "./projectcard";
 function Project() {
   return (
     <div className="container py-5">
